@@ -1,32 +1,8 @@
 /*
-	Directive by HTML5 UP
+	Strata by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
-/* Basic */
-
-	hr {
-		border-top: solid 1px #cccccc;
-	}
-
-	blockquote {
-		border-left: solid 0.5em #cccccc;
-	}
-
-/* Section/Article */
-
-	header.major {
-		border-color: #cccccc;
-	}
-
-		header.major p {
-			border-top: solid 1px #cccccc;
-		}
-
-	footer.major {
-		border-color: #cccccc;
-	}
 
 /* Button */
 
@@ -38,13 +14,6 @@
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		input[type="button"].alt,
-		.button.alt {
-			border: solid 1px #cccccc;
-		}
-
 /* Form */
 
 	input[type="text"],
@@ -53,75 +22,53 @@
 	select,
 	textarea {
 		position: relative;
-		border: solid 1px #cccccc;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select {
+		height: 2.75em;
+		line-height: 2.75em;
+	}
+
+	input[type="checkbox"] + label:before,
+	input[type="radio"] + label:before {
+		display: none;
 	}
 
 /* Image */
 
 	.image {
-		border: 0;
-		display: inline-block;
 		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-		.image:after {
-			display: none;
+		.image:before, .image:after {
+			display: none !important;
 		}
 
-/* Box */
-
-	.box {
-		border: solid 1px #cccccc;
-	}
+		.image img {
+			position: relative;
+			-ms-behavior: url("assets/js/ie/PIE.htc");
+		}
 
 /* Header */
 
 	#header {
-		background-image: url("../../images/header.jpg") !important;
-		background-size: cover !important;
-		background-position: scroll !important;
+		background-image: url("../../images/bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
 		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-		padding: 8em 0 !important;
-		color: #ffffff;
 	}
 
-		#header a {
-			color: inherit;
-		}
-
-		#header:before {
-			content: '';
-			background-image: url("images/overlay.png");
-			position: absolute;
-			left: 0;
-			top: 0;
-			width: 100%;
-			height: 100%;
-			display: block;
-			z-index: 0;
-		}
-
-		#header > * {
-			position: relative;
-			z-index: 1;
-		}
-
-		#header .logo {
-			-ms-behavior: url("assets/js/ie/PIE.htc");
+		#header h1 {
+			color: #ffffff;
 		}
 
 /* Footer */
 
-	#footer {
-		background-image: none !important;
-		margin-top: 0 !important;
-		padding: 4em 0 !important;
+	#footer .icons a {
 		color: #ffffff;
-	}
-
-/* Main */
-
-	#main {
-		padding: 4em 0;
 	}
