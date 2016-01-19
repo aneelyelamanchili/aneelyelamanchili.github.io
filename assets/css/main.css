@@ -2506,7 +2506,7 @@
     }
 
         ul.logos li {
-            width: 110px;
+            width: 220px;
             line-height: 110px;
             min-height: 110px;
             text-align: center;
@@ -2518,12 +2518,19 @@
             background-size: contain;
             text-indent: -9999px;
             opacity: .9;
+            padding: 0px;
         }
 
-        ul.logos.resume li {
+        ul.logos.resume li a{
             width: 226px;
             min-height: 120px;
             line-height: 120px
+            margin: 0px; 
+            display: block; 
+            width: 100%; 
+            height: 100%;
+            text-decoration: none;
+            color: #FFFFFF;
         }
 
         ul.logos.small li {
