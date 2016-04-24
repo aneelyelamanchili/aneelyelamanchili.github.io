@@ -99,6 +99,17 @@ if(isset($_POST['submit'])){
 										</div>
 									</a>
 								</article>
+                                <article class="style5">
+									<span class="image">
+										<img src="images/friendbot.jpg" alt="" />
+									</span>
+									<a href="http://gofriendbot.com/" target="_blank">
+										<h2>FriendBot</h2>
+										<div class="content">
+											<p>A Facebook Messenger bot that connects you with people of similar interests</p>
+										</div>
+									</a>
+                                </article>
 								<article class="style2">
 									<span class="image">
 										<img src="images/trees.jpg" alt="" />
