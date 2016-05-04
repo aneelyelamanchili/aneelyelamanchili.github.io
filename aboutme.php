@@ -82,6 +82,7 @@ if(isset($_POST['submit'])){
 									<li><a href="https://twitter.com/aneel_y" target="_blank" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="http://instagram.com/aneel.yelamanchili" target="_blank" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
                                     <li><a href="https://www.linkedin.com/in/ayelamanchili" target="_blank" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="http://github.com/aneelyelamanchili" target="_blank" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
 									<li><a href="http://facebook.com/aneelphoto" target="_blank" class="icon style2 fa-camera-retro"><span class="label">Photography</span></a></li>
 									<li><a href="resume.pdf" class="icon style2 fa-file-text-o"><span class="label">Resume</span></a></li>
 								</ul>
