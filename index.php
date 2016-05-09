@@ -136,8 +136,8 @@ if(isset($_POST['submit'])){
 									<span class="image">
 										<img src="images/project.jpg" alt="" />
 									</span>
-									<a href="http://projects.yelamanchili.io/" target="_blank">
-										<h2>Project Site</h2>
+									<a href="http://beta.yelamanchili.io/" target="_blank">
+										<h2>Beta Site</h2>
 										<div class="content">
 											<p>Web-based project I am currently working on</p>
 										</div>
