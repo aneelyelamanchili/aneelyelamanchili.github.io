@@ -1668,7 +1668,6 @@
 		-webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
-		text-decoration: none;
 		color: #585858;
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
         text-decoration: none !important;
@@ -2335,7 +2334,7 @@
 		.image img {
 			border-radius: 4px;
 			display: block;
-            text-decoration: none;
+            text-decoration: none !important;
 		}
 
 		.image.left, .image.right {
@@ -3513,9 +3512,9 @@
             display: block; 
             width: 100%; 
             height: 100%;
-            text-decoration: underline;
-			-moz-text-decoration-color: #585858; /* Code for Firefox */
-			text-decoration-color: #585858;
+            text-decoration: none;
+			-moz-text-decoration-color: none; /* Code for Firefox */
+			text-decoration-color: none;
         }
 
         ul.logos.small li {
