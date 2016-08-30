@@ -1672,6 +1672,7 @@
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
         text-decoration: none !important;
         color: #FFFFFF;
+        border-bottom-color: transparent;
 	}
 
 		a:hover {
