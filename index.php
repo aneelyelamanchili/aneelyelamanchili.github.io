@@ -195,7 +195,7 @@ if(isset($_POST['submit'])){
 								</ul>
 							</section>
 							<ul class="copyright">
-								<li>&copy; Aneel Yelamanchili 2016</li>
+								<li>&copy; Aneel Yelamanchili 2017</li>
 							</ul>
 						</div>
 					</footer>
