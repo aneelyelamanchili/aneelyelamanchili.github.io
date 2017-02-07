@@ -51,7 +51,12 @@ if(isset($_POST['submit'])){
 					<div id="main">
                         <center><img width="17%" src="assets/img/profile.jpg" alt="" /></center>
 						<div class="inner">
-							<center><p><br />I am an 18 year old software developer from Pleasanton, California. I have experience in many technical fields, and have worked in the technology industry.<br /><br />I am currently a student at University of Southern California's Viterbi School of Engineering majoring in computer science.<br /><br /> I had the opportunity to work as an intern in Symantec Corporation's Data Loss Prevention group in San Francisco, California. During my six month tenure at Symantec, I worked on many projects, and worked with tools such as automation frameworks, Perforce, Jenkins, and Unix. I delved into cloud computing by working closely with the SaaS team to deploy the product in the cloud. <br /><br />Currently, I am lead web developer for USC's premier newspaper, the Daily Trojan. At the Trojan, I develop for their website and work on special web-based projects. <br /><br />This summer I will be interning as a Software Engineering Intern at Salesforce.com in San Francisco.</p></center>
+							<p><br />I am an 18 year old software developer from Pleasanton, California. I have experience in many technical fields, and have worked in the technology industry.<br />
+								 <br />I am currently a student at University of Southern California's Viterbi School of Engineering majoring in computer science.<br />
+								 <br /> I had the opportunity to work as an intern in Symantec Corporation's Data Loss Prevention group in San Francisco, California. During my six month tenure at Symantec,
+								 				I worked on many projects, and worked with tools such as automation frameworks, Perforce, Jenkins, and Unix. I delved into cloud computing by working closely with the
+												SaaS team to deploy the product in the cloud. <br /><br />Currently, I am lead web developer for USC's premier newspaper, the Daily Trojan. At the Trojan, I develop for
+												their website and work on special web-based projects. <br /><br />This summer I will be interning as a Software Engineering Intern at Salesforce.com in San Francisco.</p>
 						</div>
 					</div>
 
