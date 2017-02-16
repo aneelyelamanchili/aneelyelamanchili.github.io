@@ -3491,6 +3491,7 @@
 				padding: 4px 4px 4px 4px;
 		    margin: 0px 0px 0px 0px;
 		    border:  0px 0px 0px 0px;
+				white-space: nowrap;
     }
 
         ul.logos li {
