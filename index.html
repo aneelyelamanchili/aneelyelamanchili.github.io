@@ -1,22 +1,3 @@
-<?php
-if(isset($_POST['submit'])){
-	$to = "aneel@yelamanchili.io"; // this is your Email address
-	$from = $_POST['email']; // this is the sender's Email address
-	$name = $_POST['name'];
-	$subject = "Form submission";
-	$subject2 = "Copy of your form submission";
-	$message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
-	$message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
-
-	$headers = "From:" . $from;
-	$headers2 = "From:" . $to;
-	mail($to,$subject,$message,$headers);
-	mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-	echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
-	// You can also use header('Location: thank_you.php'); to redirect to another page.
-	}
-?>
-
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -49,7 +30,7 @@ if(isset($_POST['submit'])){
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-square fa-stack-2x"></i>
                                         <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
-                                    </span><a href="aboutme.php" class="logo"><span class="title">&nbsp;Aneel Yelamanchili</span>
+                                    </span><a href="aboutme.html" class="logo"><span class="title">&nbsp;Aneel Yelamanchili</span>
 								</a>
 
 							<!-- Nav -->
@@ -57,7 +38,7 @@ if(isset($_POST['submit'])){
 								<nav>
 									<ul>
 
-										<li><a href="aboutme.php">about me</a></li>
+										<li><a href="aboutme.html">about me</a></li>
 
 
 									</ul>
@@ -143,6 +124,17 @@ if(isset($_POST['submit'])){
 										</div>
 									</a>
                                 </article>
+																<article class="style6">
+									<span class="image">
+										<img src="images/gitsearch.png" alt="" />
+									</span>
+									<a href="https://github.com/aneelyelamanchili/Git-Search" target="_blank">
+										<h2>Git Search</h2>
+										<div class="content">
+											<p>GitHub search client that filters queries by location, stars, and language.</p>
+										</div>
+									</a>
+                                </article>
 							</section>
                             <br />
                             <hr width="50%"/>
@@ -158,6 +150,10 @@ if(isset($_POST['submit'])){
                                     <li style="background-image: url('assets/img/logos/dailytrojan.png');"><a href="http://dailytrojan.com" target="_blank">Daily Trojan</a></li>
                                     <li style="background-image: url('assets/img/logos/salesforce.png');"><a href="http://salesforce.com" target="_blank">Salesforce.com</a></li>
                               </ul>
+															<ul class="logos resume">
+																			<li style="background-image: url('assets/img/logos/lava.png');"><a href="http://usclavalab.org" target="_blank">LavaLab</a></li>
+																			<li style="background-image: url('assets/img/logos/scope.png');"><a href="http://scopeusc.com" target="_blank">Scope</a></li>
+	                              </ul>
 
 						</div>
 					</div>
@@ -167,7 +163,9 @@ if(isset($_POST['submit'])){
 						<div class="inner">
 							<section>
 								<h2>Get in touch</h2>
-								<form method="post" action="">
+								<p><span class="icon fa-envelope-o"><a href="mailto:ayelaman@usc.edu" style="color:black"> ayelaman@usc.edu</a></span></p>
+								<p><span class="icon fa-envelope-o"><a href="mailto:aneel@yelamanchili.io" style="color:black"> aneel@yelamanchili.io</a></span></p>
+								<!-- <form method="post" action="">
 									<div class="field half first">
 										<input type="text" name="name" id="name" placeholder="Name" />
 									</div>
@@ -180,7 +178,7 @@ if(isset($_POST['submit'])){
 									<ul class="actions">
 										<li><input type="submit" name="submit" value="Send" class="special" /></li>
 									</ul>
-								</form>
+								</form> -->
 							</section>
 							<section>
 								<h2>Links</h2>

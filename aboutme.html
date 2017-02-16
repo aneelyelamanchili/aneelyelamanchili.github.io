@@ -1,22 +1,3 @@
-<?php
-if(isset($_POST['submit'])){
-	$to = "aneel@yelamanchili.io"; // this is your Email address
-	$from = $_POST['email']; // this is the sender's Email address
-	$name = $_POST['name'];
-	$subject = "Form submission";
-	$subject2 = "Copy of your form submission";
-	$message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
-	$message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
-
-	$headers = "From:" . $from;
-	$headers2 = "From:" . $to;
-	mail($to,$subject,$message,$headers);
-	mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-	echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
-	// You can also use header('Location: thank_you.php'); to redirect to another page.
-	}
-?>
-
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -42,7 +23,7 @@ if(isset($_POST['submit'])){
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-square fa-stack-2x"></i>
                                         <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
-                                    </span><a href="index.php" class="logo"><span class="title">&nbsp;Aneel Yelamanchili</span>
+                                    </span><a href="index.html" class="logo"><span class="title">&nbsp;Aneel Yelamanchili</span>
 								</a>
 
 						</div>
@@ -51,12 +32,12 @@ if(isset($_POST['submit'])){
 					<div id="main">
                         <center><img width="17%" src="assets/img/profile.jpg" alt="" /></center>
 						<div class="inner">
-							<p><br />I am an 18 year old software developer from Pleasanton, California. I have experience in many technical fields, and have worked in the technology industry.<br />
+							<p><br />I am an 19 year old software developer from Pleasanton, California. I have experience in many technical fields, and have worked in the technology industry.<br />
 								 <br />I am currently a student at University of Southern California's Viterbi School of Engineering majoring in computer science.<br />
 								 <br /> I had the opportunity to work as an intern in Symantec Corporation's Data Loss Prevention group in San Francisco, California. During my six month tenure at Symantec,
 								 				I worked on many projects, and worked with tools such as automation frameworks, Perforce, Jenkins, and Unix. I delved into cloud computing by working closely with the
 												SaaS team to deploy the product in the cloud. <br /><br />Currently, I am lead web developer for USC's premier newspaper, the Daily Trojan. At the Trojan, I develop for
-												their website and work on special web-based projects. <br /><br />This summer I will be interning as a Software Engineering Intern at Salesforce.com in San Francisco.</p>
+												their website and work on special web-based projects. <br /><br />This summer I will be returning to Salesforce as a Software Engineering Intern in San Francisco.</p>
 						</div>
 					</div>
 
@@ -65,7 +46,9 @@ if(isset($_POST['submit'])){
 						<div class="inner">
 							<section>
 								<h2>Get in touch</h2>
-								<form method="post" action="">
+								<p><span class="icon fa-envelope-o"><a href="mailto:ayelaman@usc.edu" style="color:black"> ayelaman@usc.edu</a></span></p>
+								<p><span class="icon fa-envelope-o"><a href="mailto:aneel@yelamanchili.io" style="color:black"> aneel@yelamanchili.io</a></span></p>
+								<!-- <form method="post" action="">
 									<div class="field half first">
 										<input type="text" name="name" id="name" placeholder="Name" />
 									</div>
@@ -78,7 +61,7 @@ if(isset($_POST['submit'])){
 									<ul class="actions">
 										<li><input type="submit" name="submit" value="Send" class="special" /></li>
 									</ul>
-								</form>
+								</form> -->
 							</section>
 							<section>
 								<h2>Links</h2>

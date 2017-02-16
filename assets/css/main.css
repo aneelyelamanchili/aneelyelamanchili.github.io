@@ -3409,7 +3409,7 @@
     .cloud3 {
         top: 20px;
       z-index: -300;
-      fill: #ffffff; 
+      fill: #ffffff;
         left: -315px;
       -webkit-animation: move 35s linear infinite reverse;
       -moz-animation: move 35s linear infinite reverse;
@@ -3487,6 +3487,9 @@
     ul.logos {
         overflow: auto;
         align-content: left;
+				padding: 4px 4px 4px 4px;
+		    margin: 0px 0px 0px 0px;
+		    border:  0px 0px 0px 0px;
     }
 
         ul.logos li {
@@ -3509,9 +3512,9 @@
             width: 226px;
             min-height: 120px;
             line-height: 120px
-            margin: 0px; 
-            display: block; 
-            width: 100%; 
+            margin: 0px;
+            display: block;
+            width: 100%;
             height: 100%;
             text-decoration: none;
 			-moz-text-decoration-color: none; /* Code for Firefox */
