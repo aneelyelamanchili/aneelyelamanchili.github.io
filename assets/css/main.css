@@ -2746,7 +2746,8 @@
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #fbbe54;
+				/*background-color: #fbbe54;*/
+				background-color: #b1304e;
 			}
 
 			.tiles article.style2 > .image:before {
@@ -2754,7 +2755,9 @@
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #40b8ea;
+				/*background-color: #40b8ea;*/
+				/*background-color: #221c78;*/
+				background-color: #7cc2eb;
 			}
 
 			.tiles article.style4 > .image:before {
@@ -2766,7 +2769,8 @@
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #eda154;
+				/*background-color: #eda154;*/
+				background-color: #fbbe54;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
